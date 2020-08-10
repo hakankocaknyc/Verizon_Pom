@@ -41,7 +41,7 @@ public class PhonePageTest {
 	@Test(priority = 1)
 	public void verifyTitleTest() {
 		String title = phonePage.verifyGetTitle();
-		System.out.println("Phone page title  " + title);
+		System.out.println("Phone page title is " + title);
 		Assert.assertEquals(title, Constants.PHONE_PAGE_TITLE);
 	}
 
